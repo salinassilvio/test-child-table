@@ -1,38 +1,73 @@
-.App {
+.app-main {
+  padding: 0;
+  justify-content: left;
+}
+
+/*tab */
+.tabs-main {
+  margin-top: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 0px;
+  padding-bottom: 40px;
+  border-bottom: none !important;
+  font-size: 1.2rem;
+}
+
+.tabs-main .nav-link {
+  color: #c8c8c8 !important;
+  width: 202px;
+  height: 44px;
+  border-radius: 5px 5px 0px 0px;
+  opacity: 1;
+}
+.tabs-main .nav-link.active {
+  color: white !important;
+  background-color: #003082;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.tabla-clientes {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 28px 43px;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px #15223214;
+  border-radius: 5px;
+  height: 800px;
+  overflow-y: scroll;
+}
+
+.tabla-clientes .table-header {
+  padding-bottom: 20px;
+  color: #7e7e7e;
+}
+.tabla-clientes .table-header {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.b-bttm {
+  border-bottom: 1px solid var(--table-line);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabla-post {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 28px 43px;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px #15223214;
+  border-radius: 5px;
+  height: 800px;
+  overflow-y: scroll;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tabla-post .table-header-posts {
+  padding-bottom: 20px;
+  color: #7e7e7e;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tabla-post .table-header-posts {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
 }

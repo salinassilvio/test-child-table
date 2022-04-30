@@ -1,0 +1,108 @@
+.table-body .user-general-data{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.34px;
+    padding: 23px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.user-image-container{
+    text-align: center;
+}
+
+.user-general-data .user-image{
+    background-color: black;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+
+.user-general-data .user-actions{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 31px;
+    font-size: 2.3rem;
+}
+
+.modal-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 408px;
+    height: 276px;
+    border-radius: 15px;
+    background-color: white;
+    outline: none;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.modal-edit-container{
+    padding: 45px 17.5px 42px 17px;
+}
+
+.modal-box .modal-header-edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9px;
+}
+
+.close-modal{
+    font-size: 20px;
+}
+
+.close-modal:hover{
+    cursor: pointer;
+}
+
+.modal-box .modal-header-edit h2{
+    margin: 0;
+    font-size: 2.1em;
+    line-height: 28px;
+    letter-spacing: 0.21px;
+    color: #010101;
+    font-weight: 600;
+}
+
+.modal-box input{
+    margin-top: 20px;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.modal-box .modal-buttons{
+    margin-top: 25px;
+    display: flex;
+    padding: 0 9px;
+    justify-content: space-around;
+}
+
+.modal-box .modal-buttons .btn{
+    font-family: inherit;
+    outline: none;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 12px 47px;
+}
+
+.modal-box .modal-buttons .btn.modal-cancel{
+    border: 1px solid #003082;
+}
+
+.modal-box .modal-buttons .btn.modal-save{
+    background-color: #ffde20;
+    border: none;
+}

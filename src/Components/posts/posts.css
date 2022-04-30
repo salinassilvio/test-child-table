@@ -1,0 +1,10 @@
+.table-body-posts .posts-general-data{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.34px;
+    padding: 23px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
